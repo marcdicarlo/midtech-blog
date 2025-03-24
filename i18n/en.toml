@@ -1,0 +1,12 @@
+   # File path: i18n/en.toml
+[sitename]
+other = "Midtech.dev"
+
+[siteslogan]
+other = "Welcome to my second brain."
+
+[siteseokeywords]
+other = "Site Home SEO Keywords"
+
+[siteseodescription]
+other = "Site Home SEO Description"

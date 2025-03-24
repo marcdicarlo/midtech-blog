@@ -1,0 +1,75 @@
+baseURL = "https://midtech.dev" # Must end with splash
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+
+staticDir = ["themes/Niello/static", "static"]
+
+theme = "Niello"
+
+[languages]
+	[languages.en]
+		title = "{CodeTrace} - Discover Issues, Share Solutions."
+		languageCode = "en-us"
+		LanguageName = "🇺🇸EN"
+		contentDir = "content/en"
+		weight = 1
+		[[languages.en.menus.main]]
+			name = 'Home'
+			pageRef = '/'
+			weight = 1
+		[[languages.en.menus.main]]
+			name = 'Categories'
+			pageRef = '/categories'
+			weight = 2
+		[[languages.en.menus.main]]
+			name = 'Tags'
+			pageRef = '/tags'
+			weight = 3
+		[[languages.en.menus.main]]
+			name = 'Contact'
+			pageRef = '/contact'
+			weight = 4
+	[languages.zh]
+		title = "{码途轨迹} - 发现问题，分享解决."
+        	languageCode = "zh-cn"
+        	LanguageName = "🇨🇳CN"
+        	contentDir = "content/zh"
+        	weight = 2
+		[[languages.zh.menus.main]]
+			name = '首页'
+			pageRef = '/'
+			weight = 1
+		[[languages.zh.menus.main]]
+			name = '文章分类'
+			pageRef = '/categories'
+			weight = 2
+		[[languages.zh.menus.main]]
+			name = '标签'
+			pageRef = '/tags'
+			weight = 3
+		[[languages.zh.menus.main]]
+			name = '联系我们'
+			pageRef = '/contact'
+			weight = 4
+        
+[params]
+[params.logo]
+    path = "/pastime_logo.png"
+
+[params.google]
+
+[params.bannershowcase]
+	categories = ["AI", "FOO", "BAR"]
+	limit = 2
+[params.email]
+	contact = "marcdicarlo@gmail.com"
+[params.ignore]
+	categories = ["privacy", "terms", "archives", "cookie"]
+[params.license]
+	copyright = "&#xA9; 2025 by midtech.dev. All Rights Reserved."
+
+
+[outputs]
+  home = ["HTML", "JSON"]
+    

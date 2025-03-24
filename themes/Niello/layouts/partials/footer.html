@@ -1,0 +1,17 @@
+<footer class="flex flex-col lg:flex-row items-center justify-center gap-2 text-xl mt-8 py-8 border-t border-gray-100/10">
+    <div class="text-center text-gray-500/80">
+        {{ if .Site.Params.license.copyright }}
+        {{ .Site.Params.license.copyright | safeHTML }}
+        {{ else }}
+        &#xA9; 2019 - 2025 by <a class="hover:text-gray-100" href="https://github.com/guangmean/Niello"
+            target="_blank">guangmean</a>. All Rights
+        Reserved.
+        {{ end }}
+    </div>
+    <div>
+        {{ range .Site.Languages }}
+        <a class="hover:text-gray-100" href="{{ if eq .Lang " en" }} / {{ else }} /{{.Lang}} {{ end }}">{{
+            .LanguageName }}</a>
+        {{ end }}
+    </div>
+</footer>
