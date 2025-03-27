@@ -22,11 +22,11 @@
     <meta name="keywords" content="SEO , Keywords , Here">
     <meta name="description" content="SEO Description Here">
     <link rel="canonical" href="http://localhost:1313/midtech-blog/en/posts/blog-setup/" />
-    <link rel="icon" href="http://localhost:1313/midtech-blog/favicon.ico?v=1743054388" type="image/x-icon">
+    <link rel="icon" href="http://localhost:1313/midtech-blog/favicon.ico?v=1743055285" type="image/x-icon">
     
-<link rel="stylesheet" href="http://localhost:1313/midtech-blog/css/app.css">
+<link rel="stylesheet" href="../../../midtech-blog/css/app.css">
     
-<script src="http://localhost:1313/midtech-blog/js/main.js"></script>
+<script src="../../../midtech-blog/js/main.js"></script>
 
 
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.10/dist/cdn.min.js"></script>
@@ -51,8 +51,8 @@
 
         <div x-data="{ openMenu: false }" class="relative">
     <nav class="flex flex-1 flex-col lg:flex-row items-center justify-between">
-        <a href="http://localhost:1313/midtech-blog/">
-            <img src="http://localhost:1313/midtech-blog/image/logo.webp?v=1743054388" alt="Logo"
+        <a href="../../../">
+            <img src="../../../image/logo.webp?v=1743055285" alt="Logo"
                 class="w-16 h-16 my-5 p-1 bg-gray-100 rounded-full object-cover cursor-pointer hover:scale-110" />
         </a>
         <div class="hidden lg:block" :class="{'hidden': !openMenu}">
@@ -75,7 +75,7 @@
 
 
 <li>
-    <a    class="px-5 lg:px-10 py-3 font-light hover:border-b-2 hover:border-red-500"     href="http://localhost:1313/midtech-blog/en/"  >Home</a>
+    <a    class="px-5 lg:px-10 py-3 font-light hover:border-b-2 hover:border-red-500"     href="../../../midtech-blog/en/"  >Home</a>
     
 </li>
 
@@ -86,7 +86,7 @@
 
 
 <li>
-    <a    class="px-5 lg:px-10 py-3 font-light hover:border-b-2 hover:border-red-500"     href="http://localhost:1313/midtech-blog/en/categories/"  >Categories</a>
+    <a    class="px-5 lg:px-10 py-3 font-light hover:border-b-2 hover:border-red-500"     href="../../../midtech-blog/en/categories/"  >Categories</a>
     
 </li>
 
@@ -97,7 +97,7 @@
 
 
 <li>
-    <a    class="px-5 lg:px-10 py-3 font-light hover:border-b-2 hover:border-red-500"     href="http://localhost:1313/midtech-blog/en/tags/"  >Tags</a>
+    <a    class="px-5 lg:px-10 py-3 font-light hover:border-b-2 hover:border-red-500"     href="../../../midtech-blog/en/tags/"  >Tags</a>
     
 </li>
 
@@ -152,7 +152,7 @@
     </div>
 
     <div class="relative w-full lg:w-1/2 h-12 my-1 lg:my-5">
-        <form action="http://localhost:1313/midtech-blog/en/search" method="get">
+        <form action="../../../en/search" method="get">
             <input
                 class="bg-gray-800 placeholder:italic placeholder:text-gray-600 w-full h-12 rounded-full mt-1 pl-5 pr-5 border border-gray-800 text-gray-100"
                 placeholder='Input Keywords...' type="text" name="q" id="search-query" />
@@ -167,11 +167,11 @@
     <div class="w-full flex flex-row justify-start text-gray-500 text-lg px-1 border-l-4 border-l-red-500">
         <ul class="flex flex-row gap-x-2">
             <li class="">
-                <a href="http://localhost:1313/midtech-blog/" class="hover:text-gray-100">Home</a>
+                <a href="../../../" class="hover:text-gray-100">Home</a>
             </li>
             
             <li>
-                &gt;&nbsp;&nbsp;<a href="http://localhost:1313/midtech-blog/en/posts/blog-setup/" class="hover:text-gray-100">Setting up this Blog! - Part 1</a>
+                &gt;&nbsp;&nbsp;<a href="../../../midtech-blog/en/posts/blog-setup/" class="hover:text-gray-100">Setting up this Blog! - Part 1</a>
             </li>
             
         </ul>
@@ -194,7 +194,7 @@
     
     <div class="group relative">
         <h1 class="text-3xl font-medium leading-10 text-gray-400 hover:text-gray-100">
-            <a href="http://localhost:1313/midtech-blog/en/posts/blog-setup/">
+            <a href="../../../midtech-blog/en/posts/blog-setup/">
                 Setting up this Blog! - Part 1
             </a>
         </h1>
@@ -349,7 +349,7 @@ theme = &#34;Niello&#34;
 <hr>
 <h3 id="automating-the-deployment-process-">Automating the Deployment Process ⚙️🔄</h3>
 <p>This blog is deployed using the default github actions for hugo static sites. Under settings/pages enable github actions under the build and deploy section:</p>
-<p><a href="http://localhost:1313/midtech-blog/image/Screenshot_20250326_145149.png">text</a></p>
+<p><a href="../../../image/Screenshot_20250326_145149.png">text</a></p>
 <pre tabindex="0"><code># Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
@@ -466,7 +466,7 @@ layout = &#34;search&#34;
         About
     </div>
 
-    <img src="http://localhost:1313/midtech-blog/image/logo.webp?v=1743054388" class="w-80 self-center" alt="Logo" />
+    <img src="../../../image/logo.webp?v=1743055285" class="w-80 self-center" alt="Logo" />
 
     <p class="leading-8 text-center text-lg font-light mt-3">
         
@@ -486,7 +486,7 @@ layout = &#34;search&#34;
         
         
         <li class="leading-10 line-clamp-1 mb-3 font-light border-b border-b-white/10 border-dashed">
-            <a href="http://localhost:1313/midtech-blog/en/posts/blog-setup/" class="py-5 hover:text-gray-300">Setting up this Blog! - Part 1</a>
+            <a href="../../../midtech-blog/en/posts/blog-setup/" class="py-5 hover:text-gray-300">Setting up this Blog! - Part 1</a>
         </li>
         
         
@@ -508,7 +508,7 @@ layout = &#34;search&#34;
         
         
         <li class="mb-1 border-b border-b-gray-900 border-dashed font-light">
-            <a href="http://localhost:1313/midtech-blog/en/categories/development/" class="hover:text-gray-300">Development <span
+            <a href="../../../midtech-blog/en/categories/development/" class="hover:text-gray-300">Development <span
                     class="ml-2 px-2 bg-gray-800 rounded-full text-gray-500">1</span></a>
         </li>
         
@@ -517,7 +517,7 @@ layout = &#34;search&#34;
         
         
         <li class="mb-1 border-b border-b-gray-900 border-dashed font-light">
-            <a href="http://localhost:1313/midtech-blog/en/categories/devops/" class="hover:text-gray-300">DevOps <span
+            <a href="../../../midtech-blog/en/categories/devops/" class="hover:text-gray-300">DevOps <span
                     class="ml-2 px-2 bg-gray-800 rounded-full text-gray-500">1</span></a>
         </li>
         
@@ -542,47 +542,47 @@ layout = &#34;search&#34;
         
         
         
-        <a href="http://localhost:1313/midtech-blog/en/tags/automation/"><span
-                class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Automation&nbsp;&nbsp;1</span></a>
-        
-        
-        
-        <a href="http://localhost:1313/midtech-blog/en/tags/devops/"><span
-                class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Devops&nbsp;&nbsp;1</span></a>
-        
-        
-        
-        <a href="http://localhost:1313/midtech-blog/en/tags/linux/"><span
+        <a href="../../../midtech-blog/en/tags/linux/"><span
                 class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Linux&nbsp;&nbsp;1</span></a>
         
         
         
-        <a href="http://localhost:1313/midtech-blog/en/tags/markdown/"><span
+        <a href="../../../midtech-blog/en/tags/devops/"><span
+                class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Devops&nbsp;&nbsp;1</span></a>
+        
+        
+        
+        <a href="../../../midtech-blog/en/tags/markdown/"><span
                 class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Markdown&nbsp;&nbsp;1</span></a>
         
         
         
-        <a href="http://localhost:1313/midtech-blog/en/tags/pipeline/"><span
+        <a href="../../../midtech-blog/en/tags/pipeline/"><span
                 class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Pipeline&nbsp;&nbsp;1</span></a>
         
         
         
-        <a href="http://localhost:1313/midtech-blog/en/tags/programming/"><span
+        <a href="../../../midtech-blog/en/tags/programming/"><span
                 class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Programming&nbsp;&nbsp;1</span></a>
         
         
         
-        <a href="http://localhost:1313/midtech-blog/en/tags/blog/"><span
+        <a href="../../../midtech-blog/en/tags/automation/"><span
+                class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Automation&nbsp;&nbsp;1</span></a>
+        
+        
+        
+        <a href="../../../midtech-blog/en/tags/blog/"><span
                 class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Blog&nbsp;&nbsp;1</span></a>
         
         
         
-        <a href="http://localhost:1313/midtech-blog/en/tags/ci/cd/"><span
+        <a href="../../../midtech-blog/en/tags/ci/cd/"><span
                 class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Ci/Cd&nbsp;&nbsp;1</span></a>
         
         
         
-        <a href="http://localhost:1313/midtech-blog/en/tags/hugo/"><span
+        <a href="../../../midtech-blog/en/tags/hugo/"><span
                 class="inline-block p-0 bg-gray-800 hover:bg-gray-900 border border-gray-800 text-gray-500 hover:text-gray-300 font-light mb-1 px-5 rounded-full hover:scale-105">Hugo&nbsp;&nbsp;1</span></a>
         
         
@@ -607,7 +607,7 @@ layout = &#34;search&#34;
         
         
         <li class="mb-1 border-b border-b-white/10 border-dashed">
-            <a href="http://localhost:1313/midtech-blog/en/archives">Mar, 2025<span
+            <a href="../../../en/archives">Mar, 2025<span
                     class="ml-2 px-2 bg-gray-800 rounded-full text-gray-500">1</span></a>
         </li>
         
@@ -648,7 +648,7 @@ layout = &#34;search&#34;
   <p>
     We use cookies on this website to give you the best experience on our
     site and show you relevant ads. To find out more, read our
-    <a href="http://localhost:1313/midtech-blog/en/privacy/" class="text-red-600">privacy policy</a> and <a href="http://localhost:1313/midtech-blog/en/terms/" class="text-red-600">cookie
+    <a href="../../../en/privacy/" class="text-red-600">privacy policy</a> and <a href="../../../en/terms/" class="text-red-600">cookie
       policy</a>.
   </p>
   
@@ -657,7 +657,7 @@ layout = &#34;search&#34;
     Okay
   </button>
 </div>
-<script src="http://localhost:1313/midtech-blog/js/cookie.js"></script>
+<script src="../../../js/cookie.js"></script>
 
     </div>
 </body>
