@@ -1,4 +1,4 @@
-baseURL = "https://midtech.dev" # Must end with splash
+baseURL = "https://marcdicarlo.github.io/midtech-blog/" # Must end with splash
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
@@ -45,7 +45,8 @@ theme = "Niello"
 	categories = ["privacy", "terms", "archives", "cookie"]
 [params.license]
 	copyright = "&#xA9; 2025 by midtech.dev. All Rights Reserved."
-
+[params.share]
+[params.disqus]
 
 [outputs]
   home = ["HTML", "JSON"]
