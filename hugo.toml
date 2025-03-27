@@ -1,4 +1,4 @@
-baseURL = "https://marcdicarlo.github.io/midtech-blog/" # Must end with splash
+baseURL = "https://midtech.dev" # Must end with splash
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
@@ -31,6 +31,8 @@ theme = "Niello"
 			pageRef = '/contact'
 			weight = 4
 
+        
+[params]
 
 [params.google]
 
