@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on {CodeTrace} - Discover Issues, Share Solutions.</title>
-    <link>http://localhost:1313/en/tags/hugo/</link>
+    <link>http://localhost:1313/midtech-blog/en/tags/hugo/</link>
     <description>Recent content in Hugo on {CodeTrace} - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Mar 2025 09:32:11 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/midtech-blog/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Setting up this BLOG!</title>
-      <link>http://localhost:1313/en/test/</link>
+      <title>Setting up this Blog! - Part 1</title>
+      <link>http://localhost:1313/midtech-blog/en/posts/blog-setup/</link>
       <pubDate>Mon, 24 Mar 2025 09:32:11 +0800</pubDate>
-      <guid>http://localhost:1313/en/test/</guid>
-      <description>&lt;p&gt;Niello is a modern and feature-rich Hugo theme, designed to elegantly showcase your content with a sleek dark aesthetic. With its responsive design, Niello adapts perfectly to all screen sizes for a smooth browsing experience. The theme comes equipped with Google Analytics, AdSense support, Disqus comments, social sharing, and built-in search functionality, making it easy to manage and expand your online presence.&lt;/p&gt;&#xA;&lt;h2 id=&#34;example-1-content---en&#34;&gt;Example 1 Content - EN&lt;/h2&gt;&#xA;&lt;p&gt;Content should be placed within the language directory, for example, English.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/midtech-blog/en/posts/blog-setup/</guid>
+      <description>&lt;h2 id=&#34;first-post--automating-blog-deployment-with-hugo&#34;&gt;First Post! 🎉 Automating Blog Deployment with Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Hey everyone—welcome to my brand-new blog! I&amp;rsquo;m super excited to kick things off by sharing how I set up and automated the deployment process of this very website you&amp;rsquo;re visiting right now. After some research, I decided on &lt;strong&gt;Hugo&lt;/strong&gt;, a fantastic static site generator that&amp;rsquo;s incredibly quick, straightforward to use, and ideal for blogs and simpler websites. Let&amp;rsquo;s dive in!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;why-hugo-&#34;&gt;Why Hugo? 🤔&lt;/h3&gt;&#xA;&lt;p&gt;Before we get technical, you might wonder: Why did I pick Hugo among all the options out there? Well, a few things caught my eye:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

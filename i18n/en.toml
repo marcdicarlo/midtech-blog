@@ -10,3 +10,6 @@ other = "Site Home SEO Keywords"
 
 [siteseodescription]
 other = "Site Home SEO Description"
+
+[keywordmissing]
+other = "Please enter a word or phrase above to search."

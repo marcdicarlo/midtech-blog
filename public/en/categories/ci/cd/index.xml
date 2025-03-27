@@ -9,11 +9,11 @@
     <lastBuildDate>Mon, 24 Mar 2025 09:32:11 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/en/categories/ci/cd/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Setting up this BLOG!</title>
-      <link>http://localhost:1313/en/test/</link>
+      <title>Setting up this Blog! - Part 1</title>
+      <link>http://localhost:1313/en/posts/blog-setup/</link>
       <pubDate>Mon, 24 Mar 2025 09:32:11 +0800</pubDate>
-      <guid>http://localhost:1313/en/test/</guid>
-      <description>&lt;p&gt;Niello is a modern and feature-rich Hugo theme, designed to elegantly showcase your content with a sleek dark aesthetic. With its responsive design, Niello adapts perfectly to all screen sizes for a smooth browsing experience. The theme comes equipped with Google Analytics, AdSense support, Disqus comments, social sharing, and built-in search functionality, making it easy to manage and expand your online presence.&lt;/p&gt;&#xA;&lt;h2 id=&#34;example-1-content---en&#34;&gt;Example 1 Content - EN&lt;/h2&gt;&#xA;&lt;p&gt;Content should be placed within the language directory, for example, English.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/posts/blog-setup/</guid>
+      <description>&lt;p&gt;First Post! Welcome to my blog. This post is going to be about how I setup and automate the deployment of this blog.&lt;/p&gt;&#xA;&lt;h2 id=&#34;install-hugo&#34;&gt;install hugo&lt;/h2&gt;&#xA;&lt;p&gt;while I will not cover the installation process for hugo on every OS, I will provide a link to the docs:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;https://gohugo.io/installation/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;for local development I install the following version:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo v0.145.0-666444f0a52132f9fec9f71cf25b441cc6a4f355 linux/amd64 BuildDate&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;2025-02-26T15:41:25Z VendorInfo&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;gohugoio&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;setup-project&#34;&gt;setup project&lt;/h2&gt;&#xA;&lt;p&gt;use the hugo CLI to setup your project:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

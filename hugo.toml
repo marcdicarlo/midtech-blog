@@ -1,4 +1,4 @@
-baseURL = "https://midtech.dev" # Must end with splash
+baseURL = "https://marcdicarlo.github.io/midtech-blog/" # Must end with splash
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
@@ -30,32 +30,7 @@ theme = "Niello"
 			name = 'Contact'
 			pageRef = '/contact'
 			weight = 4
-	[languages.zh]
-		title = "{码途轨迹} - 发现问题，分享解决."
-        	languageCode = "zh-cn"
-        	LanguageName = "🇨🇳CN"
-        	contentDir = "content/zh"
-        	weight = 2
-		[[languages.zh.menus.main]]
-			name = '首页'
-			pageRef = '/'
-			weight = 1
-		[[languages.zh.menus.main]]
-			name = '文章分类'
-			pageRef = '/categories'
-			weight = 2
-		[[languages.zh.menus.main]]
-			name = '标签'
-			pageRef = '/tags'
-			weight = 3
-		[[languages.zh.menus.main]]
-			name = '联系我们'
-			pageRef = '/contact'
-			weight = 4
-        
-[params]
-[params.logo]
-    path = "/pastime_logo.png"
+
 
 [params.google]
 
@@ -63,7 +38,7 @@ theme = "Niello"
 	categories = ["AI", "FOO", "BAR"]
 	limit = 2
 [params.email]
-	contact = "marcdicarlo@gmail.com"
+	contact = "info@midtech.dev"
 [params.ignore]
 	categories = ["privacy", "terms", "archives", "cookie"]
 [params.license]
