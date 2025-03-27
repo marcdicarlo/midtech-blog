@@ -1,4 +1,4 @@
-baseURL = "https://marcdicarlo.github.io/midtech-blog/" # Must end with splash
+baseURL = "https://midtech.dev" # Must end with splash
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
