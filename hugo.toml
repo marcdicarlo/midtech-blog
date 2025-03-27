@@ -2,7 +2,6 @@ baseURL = "https://marcdicarlo.github.io/midtech-blog/" # Must end with splash
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
-relativeURLs = true
 staticDir = ["themes/Niello/static", "static"]
 
 theme = "Niello"
