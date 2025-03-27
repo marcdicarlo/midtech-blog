@@ -189,7 +189,7 @@ I specifically picked [Niello](https://github.com/guangmean/Niello) because of i
 
 This blog is deployed using the default github actions for hugo static sites. Under settings/pages enable github actions under the build and deploy section:
 
-[text](/image/Screenshot_20250326_145149.png)
+![screenshot](/image/Screenshot_20250326_145149.png)
 
 
 ```
