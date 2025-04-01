@@ -1,10 +1,26 @@
-baseURL = "https://midtech.dev" # Must end with splash
+baseURL = "https://midtech.dev/" # Must end with splash
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
 staticDir = ["themes/Niello/static", "static"]
 
 theme = "Niello"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = 'catppuccin-mocha'
+    tabWidth = 2
+    wrapperClass = 'highlight'
 
 [languages]
 	[languages.en]

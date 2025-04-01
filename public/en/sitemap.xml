@@ -2,52 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/midtech-blog/en/</loc>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/search/</loc>
+    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/automation/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/tags/automation/</loc>
+    <loc>http://localhost:1313/en/tags/blog/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/tags/blog/</loc>
+    <loc>http://localhost:1313/en/categories/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/categories/</loc>
+    <loc>http://localhost:1313/en/tags/ci/cd/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/tags/ci/cd/</loc>
+    <loc>http://localhost:1313/en/categories/development/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/categories/development/</loc>
+    <loc>http://localhost:1313/en/tags/devops/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/tags/devops/</loc>
+    <loc>http://localhost:1313/en/categories/devops/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/categories/devops/</loc>
+    <loc>http://localhost:1313/en/tags/hugo/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/tags/hugo/</loc>
+    <loc>http://localhost:1313/en/tags/linux/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/tags/linux/</loc>
+    <loc>http://localhost:1313/en/tags/markdown/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/tags/markdown/</loc>
+    <loc>http://localhost:1313/en/tags/pipeline/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/tags/pipeline/</loc>
+    <loc>http://localhost:1313/en/posts/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/posts/</loc>
+    <loc>http://localhost:1313/en/tags/programming/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/tags/programming/</loc>
+    <loc>http://localhost:1313/en/posts/blog-setup/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/posts/blog-setup/</loc>
-    <lastmod>2025-03-24T09:32:11+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/midtech-blog/en/tags/</loc>
+    <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url>
 </urlset>

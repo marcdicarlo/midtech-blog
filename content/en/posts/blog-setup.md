@@ -68,7 +68,8 @@ Let's quickly break down what's happening here:
 ### configure the theme
 
 save the following to the hugo.toml file adjusting as needed.
-```
+
+```toml
 baseURL = "https://www.angularcorp.com/" # Must end with splash
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
@@ -144,11 +145,12 @@ theme = "Niello"
 [outputs]
   home = ["HTML", "JSON"]
 ```
+
 In order to change some translation key such as site title, slogan, etc you must create the following directory at the top level your project: `i18n`. 
 
 - create an appropiate language file (e.g `en.toml` for english)
 
-```
+```toml
    # File path: i18n/en.toml
    [sitename]
    other = "Site Name"
@@ -162,8 +164,6 @@ In order to change some translation key such as site title, slogan, etc you must
    [siteseodescription]
    other = "Site Home SEO Description"
 ```
-
-
 
 ---
 
@@ -191,8 +191,7 @@ This blog is deployed using the default github actions for hugo static sites. Un
 
 ![screenshot](/image/Screenshot_20250326_145149.png)
 
-
-```
+```yaml
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
@@ -276,14 +275,14 @@ jobs:
 
 To enable the search functionality, you need to configure JSON output in the hugo.toml file by adding the following:
 
-```
+```toml
 [outputs]
   home = ["HTML", "JSON"]
 ```
 
 And a search folder with an _index.md file under the content directory is required, for example: content/en/search/_index.md
 
-```
+```toml
 +++
 
 title = "Search Results"
