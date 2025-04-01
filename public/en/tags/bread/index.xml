@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on {CodeTrace} - Discover Issues, Share Solutions.</title>
-    <link>http://localhost:1313/en/posts/</link>
-    <description>Recent content in Posts on {CodeTrace} - Discover Issues, Share Solutions.</description>
+    <title>Bread on {CodeTrace} - Discover Issues, Share Solutions.</title>
+    <link>http://localhost:1313/en/tags/bread/</link>
+    <description>Recent content in Bread on {CodeTrace} - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Mar 2025 23:28:39 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/bread/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hoagie Roll Recipe</title>
+      <title>Hoagie Roll Recipe 🥖</title>
       <link>http://localhost:1313/en/posts/hoagie/</link>
-      <pubDate>Mon, 31 Mar 2025 23:28:39 -0600</pubDate>
+      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/posts/hoagie/</guid>
       <description>&lt;h2 id=&#34;hoagie-roll-recipe-&#34;&gt;Hoagie Roll Recipe 🥖&lt;/h2&gt;&#xA;&lt;p&gt;No-nonsense hoagie roll recipe based on &lt;a href=&#34;https://www.cookwell.com/recipe/hoagie-rolls&#34;&gt;this one&lt;/a&gt; from Ethan Chlebowski. Adjusted for Colorado mountain altitude and dryness—because baking up here is a whole different game. I basically doubled the oil content to fight off the dry air.&lt;/p&gt;&#xA;&lt;p&gt;Planning to try this with shortening instead of oil next time, just to see how it holds up. 🧪&lt;/p&gt;&#xA;&lt;h3 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:2;-o-tab-size:2;tab-size:2;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;milk&lt;/span&gt;: 260g&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;yeast&lt;/span&gt;: 8g&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;diastatic malt powder&lt;/span&gt;: 8g&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;flour&lt;/span&gt;: 400g&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;honey&lt;/span&gt;: 10g&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;sugar&lt;/span&gt;: 5g&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;olive oil&lt;/span&gt;: 40g&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#cba6f7&#34;&gt;salt&lt;/span&gt;: 8g&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;prep-&#34;&gt;Prep 🧂&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mix and knead until smooth and elastic.&lt;/li&gt;&#xA;&lt;li&gt;Divide the dough into 4 equal parts.&lt;/li&gt;&#xA;&lt;li&gt;Roll each piece flat, then shape into tight tubes (like little baguettes).&lt;/li&gt;&#xA;&lt;li&gt;Let rise until puffy and ready to bake.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;bake&#34;&gt;Bake&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bake at 375°F for 20 minutes.&lt;/li&gt;&#xA;&lt;li&gt;Rotate halfway through.&lt;/li&gt;&#xA;&lt;li&gt;Egg wash optional (for shine).&lt;/li&gt;&#xA;&lt;li&gt;Steam optional (for crust).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These come out soft with just enough chew—perfect for meatball subs or Philly cheesesteaks. 👌&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Setting up this Blog! - Part 1</title>
-      <link>http://localhost:1313/en/posts/blog-setup/</link>
-      <pubDate>Mon, 24 Mar 2025 09:32:11 +0800</pubDate>
-      <guid>http://localhost:1313/en/posts/blog-setup/</guid>
-      <description>&lt;h2 id=&#34;first-post--automating-blog-deployment-with-hugo&#34;&gt;First Post! 🎉 Automating Blog Deployment with Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Hey everyone—welcome to my brand-new blog! I&amp;rsquo;m super excited to kick things off by sharing how I set up and automated the deployment process of this very website you&amp;rsquo;re visiting right now. After some research, I decided on &lt;strong&gt;Hugo&lt;/strong&gt;, a fantastic static site generator that&amp;rsquo;s incredibly quick, straightforward to use, and ideal for blogs and simpler websites. Let&amp;rsquo;s dive in!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;why-hugo-&#34;&gt;Why Hugo? 🤔&lt;/h3&gt;&#xA;&lt;p&gt;Before we get technical, you might wonder: Why did I pick Hugo among all the options out there? Well, a few things caught my eye:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
