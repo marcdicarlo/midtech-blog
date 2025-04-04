@@ -2,7 +2,7 @@
 title: "Setting up this Blog! - Part 2"
 description: "Part 2 of my blog setup series—customizing icons, replacing stock images, and tweaking theme visuals in Hugo with the Niello theme."
 date: 2025-04-02T00:33:55-06:00
-draft: true
+draft: false
 tags: ["hugo", "blog setup", "static site", "niello theme", "customization", "web dev"]
 category: "dev notes"
 seo_keywords: ["Hugo blog customization", "Niello theme Hugo", "how to replace favicon in Hugo", "custom logo static site", "adjusting outline in Hugo theme", "static site setup tutorial"]
