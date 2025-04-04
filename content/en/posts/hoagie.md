@@ -38,6 +38,4 @@ salt: 8g
 - Egg wash optional (for shine).
 - Steam optional (for crust).
 
-
-
 These come out soft with just enough chew—perfect for meatball subs or Philly cheesesteaks. 👌

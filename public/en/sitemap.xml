@@ -3,13 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-03-31T23:28:39-06:00</lastmod>
+    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/baking/</loc>
+    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/bread/</loc>
+    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/hoagie/</loc>
-    <lastmod>2025-03-31T23:28:39-06:00</lastmod>
+    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/hoagie-rolls/</loc>
+    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/home-cooking/</loc>
+    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2025-03-31T23:28:39-06:00</lastmod>
+    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/recipes/</loc>
+    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/search/</loc>
     <lastmod>2025-03-27T00:00:00+00:00</lastmod>
@@ -51,9 +69,6 @@
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/blog-setup/</loc>
-    <lastmod>2025-03-24T09:32:11+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url>
 </urlset>
