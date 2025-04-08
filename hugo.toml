@@ -53,7 +53,7 @@ theme = "Niello"
 
 [params.bannershowcase]
 	categories = ["AI", "FOO", "BAR"]
-	limit = 2
+	limit = 4
 [params.email]
 	contact = "info@midtech.dev"
 [params.ignore]
