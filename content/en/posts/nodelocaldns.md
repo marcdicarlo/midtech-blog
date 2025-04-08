@@ -3,7 +3,7 @@ title: "Improving DNS Reliability with NodeLocalDNS in Kubernetes"
 description: "How to fix intermittent DNS resolution issues in local Kubernetes clusters by deploying NodeLocalDNS as a caching layer on each node. Includes full manifest setup and configuration steps."
 date: 2025-04-08
 tags: ["kubernetes", "dns", "nodelocaldns", "coredns", "devops", "ubuntu", "networking"]
-categories: "DevOps"
+categories: ["DevOps"]
 seo_keywords: ["NodeLocalDNS setup", "kubernetes dns troubleshooting", "kubernetes node-local dns caching", "ubuntu kubernetes dns fix", "coredns node caching"]
 weight: 1
 draft: false

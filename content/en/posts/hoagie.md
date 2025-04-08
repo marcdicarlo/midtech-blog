@@ -3,7 +3,7 @@ title: "Hoagie Roll Recipe 🥖"
 description: "A simple, no-nonsense hoagie roll recipe adapted for Colorado’s dry, high-altitude climate. Based on Ethan Chlebowski’s version, with a personal twist."
 date: 2025-03-29
 tags: ["baking", "bread", "hoagie rolls", "recipes", "home cooking"]
-categories: "Cooking"
+categories: ["Cooking"]
 seo_keywords: ["hoagie roll recipe", "homemade hoagie bread", "high altitude baking", "easy bread recipe", "colorado baking", "Ethan Chlebowski hoagie"]
 ---
 

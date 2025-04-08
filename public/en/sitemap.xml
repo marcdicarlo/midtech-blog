@@ -2,13 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/en/posts/nodelocaldns/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/categories/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/coredns/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/devops/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/categories/devops/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/dns/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/kubernetes/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/networking/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/nodelocaldns/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/ubuntu/</loc>
+    <lastmod>2025-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/blog-setup/</loc>
+    <lastmod>2025-04-02T00:33:55-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/customization/</loc>
+    <lastmod>2025-04-02T00:33:55-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/categories/development/</loc>
+    <lastmod>2025-04-02T00:33:55-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/hugo/</loc>
+    <lastmod>2025-04-02T00:33:55-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/niello-theme/</loc>
+    <lastmod>2025-04-02T00:33:55-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/blog-setup-2/</loc>
+    <lastmod>2025-04-02T00:33:55-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/static-site/</loc>
+    <lastmod>2025-04-02T00:33:55-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/web-dev/</loc>
+    <lastmod>2025-04-02T00:33:55-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/baking/</loc>
     <lastmod>2025-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/bread/</loc>
+    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/categories/cooking/</loc>
     <lastmod>2025-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/hoagie/</loc>
@@ -20,13 +83,7 @@
     <loc>http://localhost:1313/en/tags/home-cooking/</loc>
     <lastmod>2025-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/tags/recipes/</loc>
-    <lastmod>2025-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2025-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/search/</loc>
@@ -38,22 +95,7 @@
     <loc>http://localhost:1313/en/tags/blog/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
-    <lastmod>2025-03-24T09:32:11+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/tags/ci/cd/</loc>
-    <lastmod>2025-03-24T09:32:11+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/development/</loc>
-    <lastmod>2025-03-24T09:32:11+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/devops/</loc>
-    <lastmod>2025-03-24T09:32:11+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/devops/</loc>
-    <lastmod>2025-03-24T09:32:11+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/hugo/</loc>
     <lastmod>2025-03-24T09:32:11+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/linux/</loc>

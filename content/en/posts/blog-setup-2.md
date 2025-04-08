@@ -4,7 +4,7 @@ description: "Part 2 of my blog setup series—customizing icons, replacing stoc
 date: 2025-04-02T00:33:55-06:00
 draft: false
 tags: ["hugo", "blog setup", "static site", "niello theme", "customization", "web dev"]
-categories: "development"
+categories: ["Development"]
 seo_keywords: ["Hugo blog customization", "Niello theme Hugo", "how to replace favicon in Hugo", "custom logo static site", "adjusting outline in Hugo theme", "static site setup tutorial"]
 ---
 
