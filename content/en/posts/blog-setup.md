@@ -1,12 +1,12 @@
-+++
-title = 'Setting up this Blog! - Part 1'
-date = 2025-03-24T09:32:11+08:00
-categories = ["Development", "DevOps"]
-tags = ["hugo", "linux", "ci/cd", "programming", "devops", "pipeline", "automation", "blog", "markdown"]
-keywords = ["SEO", "Keywords", "Here"]
-description = "SEO Description Here"
-draft = false
-+++
+---
+title: 'Setting up this Blog! - Part 1'
+date: 2025-03-24T09:32:11+08:00
+categories: ["Development", "DevOps"]
+tags: ["hugo", "linux", "ci/cd", "programming", "devops", "pipeline", "automation", "blog", "markdown"]
+keywords: ["SEO", "Keywords", "Here"]
+description: "SEO Description Here"
+draft: false
+---
 
 ## First Post! 🎉 Automating Blog Deployment with Hugo
 
