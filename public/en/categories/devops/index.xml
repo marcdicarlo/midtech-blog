@@ -6,8 +6,15 @@
     <description>Recent content in DevOps on {CodeTrace} - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Mar 2025 09:32:11 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving DNS Reliability with NodeLocalDNS in Kubernetes</title>
+      <link>http://localhost:1313/en/posts/nodelocaldns/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/nodelocaldns/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;improving-dns-reliability-with-nodelocaldns-in-kubernetes&#34;&gt;Improving DNS Reliability with NodeLocalDNS in Kubernetes&lt;/h1&gt;&#xA;&lt;p&gt;Occasionally in local Kubernetes clusters (specifically on Ubuntu 24.04), I noticed &lt;strong&gt;intermittent DNS resolution failures&lt;/strong&gt;—pods would fail to resolve names even though the host itself could do so just fine.&lt;/p&gt;&#xA;&lt;p&gt;The fix? Adding &lt;code&gt;NodeLocalDNS&lt;/code&gt; as a &lt;strong&gt;caching DNS layer&lt;/strong&gt; on each node. This setup reduces reliance on external DNS lookups by caching frequently queried results locally. It’s especially useful in lab environments, homelabs, or clusters where DNS latency or flakiness causes issues with microservice resolution.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Setting up this Blog! - Part 1</title>
       <link>http://localhost:1313/en/posts/blog-setup/</link>

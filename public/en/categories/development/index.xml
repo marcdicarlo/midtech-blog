@@ -6,6 +6,21 @@
     <description>Recent content in Development on {CodeTrace} - Discover Issues, Share Solutions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 02 Apr 2025 00:33:55 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/en/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up this Blog! - Part 2</title>
+      <link>http://localhost:1313/en/posts/blog-setup-2/</link>
+      <pubDate>Wed, 02 Apr 2025 00:33:55 -0600</pubDate>
+      <guid>http://localhost:1313/en/posts/blog-setup-2/</guid>
+      <description>&lt;p&gt;Welcome to part 2 of the blog setup series. In this one, I&amp;rsquo;m replacing some stock assets and making a few small visual tweaks to the navigation bar.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-replacing-stock-icons&#34;&gt;🖼️ Replacing Stock Icons&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-custom-logo&#34;&gt;✅ Custom Logo&lt;/h3&gt;&#xA;&lt;p&gt;Copy your custom logo to the &lt;code&gt;/static/images&lt;/code&gt; directory.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-favicon&#34;&gt;🌐 Favicon&lt;/h3&gt;&#xA;&lt;p&gt;Drop your custom favicon at the top level of the &lt;code&gt;/static&lt;/code&gt; directory. Hugo will serve it from the root when the site builds.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-tweak-the-nav-logo-outline&#34;&gt;🧪 Tweak the Nav Logo Outline&lt;/h2&gt;&#xA;&lt;p&gt;This one’s just a minor nitpick—I wanted to reduce the thick white outline around the logo in the nav bar. If you&amp;rsquo;re using the &lt;strong&gt;Niello&lt;/strong&gt; theme, head to:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Setting up this Blog! - Part 1</title>
+      <link>http://localhost:1313/en/posts/blog-setup/</link>
+      <pubDate>Mon, 24 Mar 2025 09:32:11 +0800</pubDate>
+      <guid>http://localhost:1313/en/posts/blog-setup/</guid>
+      <description>&lt;h2 id=&#34;first-post--automating-blog-deployment-with-hugo&#34;&gt;First Post! 🎉 Automating Blog Deployment with Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Hey everyone—welcome to my brand-new blog! I&amp;rsquo;m super excited to kick things off by sharing how I set up and automated the deployment process of this very website you&amp;rsquo;re visiting right now. After some research, I decided on &lt;strong&gt;Hugo&lt;/strong&gt;, a fantastic static site generator that&amp;rsquo;s incredibly quick, straightforward to use, and ideal for blogs and simpler websites. Let&amp;rsquo;s dive in!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;why-hugo-&#34;&gt;Why Hugo? 🤔&lt;/h3&gt;&#xA;&lt;p&gt;Before we get technical, you might wonder: Why did I pick Hugo among all the options out there? Well, a few things caught my eye:&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
