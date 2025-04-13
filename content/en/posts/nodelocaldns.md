@@ -12,8 +12,6 @@ draft: false
 
 ---
 
-# Improving DNS Reliability with NodeLocalDNS in Kubernetes
-
 Occasionally in local Kubernetes clusters (specifically on Ubuntu 24.04), I noticed **intermittent DNS resolution failures**—pods would fail to resolve names even though the host itself could do so just fine.
 
 The fix? Adding `NodeLocalDNS` as a **caching DNS layer** on each node. This setup reduces reliance on external DNS lookups by caching frequently queried results locally. It’s especially useful in lab environments, homelabs, or clusters where DNS latency or flakiness causes issues with microservice resolution.
@@ -26,7 +24,6 @@ This post walks through deploying NodeLocalDNS as a `DaemonSet` using an officia
 
 - Sporadic DNS failures inside pods
 - Host-level resolution works, but `nslookup` or app service discovery fails inside Kubernetes
-- Resolved by restarting `CoreDNS` but reappears randomly
 
 ---
 
@@ -265,13 +262,6 @@ Populate required values using the commands below. Replace placeholder domains a
 kubedns=$(kubectl get svc kube-dns -n kube-system -o jsonpath={.spec.clusterIP})
 domain=<cluster-domain>             # usually 'cluster.local'
 localdns=<node-local-address>       # e.g. 169.254.20.10
-upstreamdns="<dns-ip-1> <dns-ip-2>" # replace with valid reachable upstream DNS servers
-```
-
-If upstream DNS servers aren’t available from the pod network, consider using the host loopback address:
-
-```bash
-upstreamdns="127.0.0.1:53"
 ```
 
 ---
@@ -284,11 +274,7 @@ Run the following commands to replace template variables in the manifest:
 sed -i "s/__PILLAR__LOCAL__DNS__/$localdns/g; \
 s/__PILLAR__DNS__DOMAIN__/$domain/g; \
 s/__PILLAR__DNS__SERVER__/$kubedns/g" nodelocaldns.yaml
-
-sed -i "s/__PILLAR__UPSTREAM__SERVERS__/$upstreamdns/g" nodelocaldns.yaml
 ```
-
-Double-check that **no `__PILLAR__` placeholders remain** in the file.
 
 ---
 
@@ -330,7 +316,7 @@ You should see a quick response without resolution failures.
 
 ---
 
-## References
+### References
 
 - 📘 [NodeLocalDNS Kubernetes Docs](https://kubernetes.io/docs/tasks/administer-cluster/nodelocaldns/)
 - 🔧 [CoreDNS Forward Plugin](https://coredns.io/plugins/forward/)

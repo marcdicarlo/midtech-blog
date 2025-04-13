@@ -1,0 +1,12 @@
+home:
+  image: '/image/logo.webp'
+  greetings: "An archive of trial, error, tacos, and terminal commands."
+  # text: 'The definitive, configurable, customizable, old fashioned rusty coloured theme for web writers and readers.'
+side:
+  home:
+  # - content: 'Oh, and did I mention it has support for static side pane content? Cool, right?'
+  - title: 'About'
+    # content: 'Side content can have images!'
+    imagePath: '/image/logo.webp'
+    imageHref: 'https://midtech.dev/'
+    imageWidth: '100%'

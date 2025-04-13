@@ -1,0 +1,25 @@
+# Root
+theme_light: Light Theme
+theme_dark: Dark Theme
+
+# Footer
+scroll_top: ^ Top ^
+footer: "midtech.dev. All Rights Reserved."
+
+# Home
+featured_posts: Featured Posts
+recent_posts: Recent Posts
+
+# SidePane for home
+search: Search...
+see_all: See all...
+
+# Page
+breadcrumb_home: Home
+
+# SidePane for single pages
+details_words: words
+details_read_time: minutes read
+side_table_of_contents: Table Of Contents
+side_attachments: Attachments
+side_related: Related

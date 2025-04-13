@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devops on {CodeTrace} - Discover Issues, Share Solutions.</title>
+    <title>Devops on &gt; MidTech.dev</title>
     <link>http://localhost:1313/en/tags/devops/</link>
-    <description>Recent content in Devops on {CodeTrace} - Discover Issues, Share Solutions.</description>
+    <description>Recent content in Devops on &gt; MidTech.dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/en/posts/nodelocaldns/</link>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/posts/nodelocaldns/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;improving-dns-reliability-with-nodelocaldns-in-kubernetes&#34;&gt;Improving DNS Reliability with NodeLocalDNS in Kubernetes&lt;/h1&gt;&#xA;&lt;p&gt;Occasionally in local Kubernetes clusters (specifically on Ubuntu 24.04), I noticed &lt;strong&gt;intermittent DNS resolution failures&lt;/strong&gt;—pods would fail to resolve names even though the host itself could do so just fine.&lt;/p&gt;&#xA;&lt;p&gt;The fix? Adding &lt;code&gt;NodeLocalDNS&lt;/code&gt; as a &lt;strong&gt;caching DNS layer&lt;/strong&gt; on each node. This setup reduces reliance on external DNS lookups by caching frequently queried results locally. It’s especially useful in lab environments, homelabs, or clusters where DNS latency or flakiness causes issues with microservice resolution.&lt;/p&gt;</description>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;Occasionally in local Kubernetes clusters (specifically on Ubuntu 24.04), I noticed &lt;strong&gt;intermittent DNS resolution failures&lt;/strong&gt;—pods would fail to resolve names even though the host itself could do so just fine.&lt;/p&gt;&#xA;&lt;p&gt;The fix? Adding &lt;code&gt;NodeLocalDNS&lt;/code&gt; as a &lt;strong&gt;caching DNS layer&lt;/strong&gt; on each node. This setup reduces reliance on external DNS lookups by caching frequently queried results locally. It’s especially useful in lab environments, homelabs, or clusters where DNS latency or flakiness causes issues with microservice resolution.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setting up this Blog! - Part 1</title>

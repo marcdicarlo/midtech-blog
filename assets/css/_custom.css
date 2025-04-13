@@ -1,0 +1,39 @@
+/* variables in root element */
+
+:root {
+    --font-family-main: "Bricolage Grotesque", sans-serif;
+    --font-family-content: "Spectral", serif;
+    --font-family-summary: "Spectral", serif;
+  
+    --dim-color: #85f7ff;
+  
+    --quote-text-color: #888;
+    --code-background-color: #333030;
+    --code-text-color: #f0efea;
+  }
+  
+  :root[color-scheme^='light'] {
+    --body-text-color: #222;
+    --body-background-color: #f0efea;
+    --dim-color: #88888844;
+  
+    --primary-color: #0090b4;
+    --selection-color: #85f7ff;
+  }
+  
+  :root[color-scheme^='dark'] {
+    --body-text-color: #f0efea;
+    --body-background-color: #000000;
+  
+    --primary-color: #00ccff;
+    --selection-color: #85f7ff;
+  }
+
+  .search-bar {
+    --dim-color: #88888844;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }

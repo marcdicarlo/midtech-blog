@@ -1,12 +1,13 @@
 baseURL: "https://midtech.dev/" # Must end with splash
+# baseURL: http://localhost:1313/
 defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: true
 
 staticDir:
-  - "themes/Niello/static"
+  - "themes/rusty-typewrite/static"
   - "static"
 
-theme: "Niello"
+theme: "rusty-typewrite"
 
 markup:
   goldmark:
@@ -29,7 +30,7 @@ markup:
 
 languages:
   en:
-    title: "{CodeTrace} - Discover Issues, Share Solutions."
+    title: "> MidTech.dev"
     languageCode: "en-us"
     LanguageName: "🇺🇸EN"
     contentDir: "content/en"
@@ -51,6 +52,8 @@ languages:
 
 
 params:
+  rtwt:
+    countPageItems: 20
   google: {}
   bannershowcase:
     categories:

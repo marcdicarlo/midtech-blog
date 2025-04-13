@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on {CodeTrace} - Discover Issues, Share Solutions.</title>
+    <title>Development on &gt; MidTech.dev</title>
     <link>http://localhost:1313/en/categories/development/</link>
-    <description>Recent content in Development on {CodeTrace} - Discover Issues, Share Solutions.</description>
+    <description>Recent content in Development on &gt; MidTech.dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Apr 2025 00:33:55 -0600</lastBuildDate>
